@@ -19,4 +19,5 @@ public class Sales {
     private int quantity;            // 판매 수량
     private BigDecimal unitPrice;    // 판매 당시 단가
     private LocalDateTime soldAt;    // 판매 시각 (DATETIME → LocalDateTime)
+    private BigDecimal totalSales;
 }
